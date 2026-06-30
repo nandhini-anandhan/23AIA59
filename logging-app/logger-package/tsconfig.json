@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ESNext",
+    "moduleResolution": "node10",
+    "ignoreDeprecations": "6.0",
+    "declaration": true,
+    "rootDir": "./src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["ES2017", "DOM"]
+  },
+  "include": ["src"]
+}
